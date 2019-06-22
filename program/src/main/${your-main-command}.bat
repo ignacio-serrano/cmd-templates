@@ -4,7 +4,7 @@
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ::    
 :: USAGE:
-::    split-path
+::    ${your-main-command} ${possibly parameters}
 ::
 :: DEPENDENCIES: :findOutInstall :parseParameters
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
