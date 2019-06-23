@@ -41,7 +41,7 @@ EXIT /B 0 & ENDLOCAL
 :parseParameters
 :: Since parameters can contain quotes and other string separators, it is 
 :: not reliable to compare them with the empty string. Instead, a variable is 
-:: set, and if it is defined aftewards, it means that something has been passed 
+:: set, and if it is defined afterwards, it means that something has been passed 
 :: as parameter.
 SET param.aux=%*
 IF NOT DEFINED aux (
